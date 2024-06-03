@@ -1,9 +1,3 @@
-# A function that takes a list and target parameter
-# Multiple variables metal, start, end and steps
-# recursion or while loop
-# Increase the steps each time a split is done
-# Conditions to track target position
-
 def binary_search(list, element):
     middle = 0
     start = 0
@@ -33,5 +27,3 @@ def verify(index):
 list = [45, 56, 86, 98, 99, 100, 121, 134, 154]
 result = binary_search(list, 121)
 verify(result)
-# Recursive Binary Search
-
