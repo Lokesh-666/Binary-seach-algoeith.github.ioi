@@ -35,7 +35,7 @@ To run this program, you need to have Python installed on your system.
    Clone or download this repository to your local machine.
 
    ```sh
-   git clone https://github.com/yourusername/binary-search.git
+   git clone https://github.com/Lokesh-666/Binary-seach-algoeith.github.ioi.git
    ```
 
    Navigate to the directory where you have saved the code.
@@ -51,13 +51,13 @@ To run this program, you need to have Python installed on your system.
 3. Run the following command to start the program:
 
    ```sh
-   python binary_search.py
+   python script.py
    ```
 
    or
 
    ```sh
-   python3 binary_search.py
+   python3 script.py
    ```
 
 ## Usage
