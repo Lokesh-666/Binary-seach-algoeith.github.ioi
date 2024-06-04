@@ -20,6 +20,7 @@ def binary_search(list, element):
 
     return -1
 
+
 # Function to verify whether the element was found or not
 def verify(index):
     if index != -1:
@@ -29,8 +30,21 @@ def verify(index):
 
 # Main function to call the binary search function
 def main():
-    list = [45, 56, 86, 98, 99, 100, 121, 134, 154]
-    result = binary_search(list, 121)
+    print("Would you like to give list items yourself? (y/n)")
+    choice = input()
+    if choice.lower() == 'y':
+        list = []
+        print("Enter the number of items in the list: ")
+        n = int(input())
+        print("Enter the items in the list: ")
+        for i in range(n):
+            list.append(int(input()))
+        print(list)
+        element = int(input("What would u like to search?"))
+    else:
+        list = [45, 56, 86, 98, 99, 100, 121, 134, 154]
+        element = 121
+    result = binary_search(list, element)
     verify(result)
 
 # Driver code to call the main function
